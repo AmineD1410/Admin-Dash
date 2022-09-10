@@ -116,6 +116,9 @@ justify-content: flex-start;
 .greeting a:hover {
     text-decoration: underline;
 }
+.greeting a:focus {
+    text-decoration: underline;
+}
 .nav {
     display: flex;
     gap: 20px;
@@ -183,6 +186,9 @@ button:hover {
     color: white;
 }
 a:hover {
+    text-decoration: underline;
+}
+a:focus {
     text-decoration: underline;
 }
 
